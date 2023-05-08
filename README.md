@@ -1,13 +1,13 @@
-# CTest
+# ctest
 A very light weight test framework in a single header file. Suitable for embedded systems with limited resources such as AVR, PIC etc.
 
 ## Example
 
-The example demo.c demonstrates how to use CTest. A CMake file is provided to build the example.
+An example of how to use ctest is given in ctest_test.c. A CMake file is provided to build the example.
 
-When CTest is disabled none of the test code will reach the compiled binary.
+When ctest is disabled none of the test code will reach the compiled binary.
 
-To include the test functions in the build CTEST_ENABLED must be defined before including the CTest header file.
+To include the test functions in the build CTEST_ENABLED must be defined before including the ctest header file.
 
 ## Customisation
 
